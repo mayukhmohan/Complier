@@ -1,0 +1,1987 @@
+    1      1 Hash           
+    1      2 Identifier      include
+    1      9 Op_less        
+    1     10 Identifier      stdio
+    1     15 Dot            
+    1     16 Identifier      h
+    1     17 Op_greater     
+    2      1 Hash           
+    2      2 Identifier      include
+    2      9 Op_less        
+    2     10 Identifier      stdlib
+    2     16 Dot            
+    2     17 Identifier      h
+    2     18 Op_greater     
+    3      1 Hash           
+    3      2 Identifier      include
+    3      9 Op_less        
+    3     10 Identifier      unistd
+    3     16 Dot            
+    3     17 Identifier      h
+    3     18 Op_greater     
+    4      1 Hash           
+    4      2 Identifier      include
+    4      9 Op_less        
+    4     10 Identifier      fcntl
+    4     15 Dot            
+    4     16 Identifier      h
+    4     17 Op_greater     
+    5      1 Hash           
+    5      2 Identifier      include
+    5      9 Op_less        
+    5     10 Identifier      string
+    5     16 Dot            
+    5     17 Identifier      h
+    5     18 Op_greater     
+    6      1 Hash           
+    6      2 Identifier      include
+    6      9 Op_less        
+    6     10 Identifier      sys
+    6     13 Op_divide      
+    6     14 Identifier      wait
+    6     18 Dot            
+    6     19 Identifier      h
+    6     20 Op_greater     
+    7      1 Hash           
+    7      2 Identifier      include
+    7      9 Op_less        
+    7     10 Identifier      sys
+    7     13 Op_divide      
+    7     14 Identifier      types
+    7     19 Dot            
+    7     20 Identifier      h
+    7     21 Op_greater     
+    8      1 Hash           
+    8      2 Identifier      include
+    8      9 Op_less        
+    8     10 Identifier      stdbool
+    8     17 Dot            
+    8     18 Identifier      h
+    8     19 Op_greater     
+   10      1 Identifier      int
+   10      5 Identifier      semicolontokenizer
+   10     23 LeftParen      
+   10     24 Identifier      char
+   10     28 Op_multiply    
+   10     29 Comma          
+   10     31 Identifier      char
+   10     35 Op_multiply    
+   10     36 Op_multiply    
+   10     37 RightParen     
+   10     38 Semicolon      
+   11      1 Identifier      void
+   11      6 Identifier      split_line
+   11     16 LeftParen      
+   11     17 Identifier      char
+   11     22 Op_multiply    
+   11     23 RightParen     
+   11     24 Semicolon      
+   12      1 Identifier      int
+   12      5 Identifier      tokenizer
+   12     14 LeftParen      
+   12     15 Identifier      char
+   12     20 Op_multiply    
+   12     21 Comma          
+   12     22 Identifier      char
+   12     27 Op_multiply    
+   12     28 Op_multiply    
+   12     29 Comma          
+   12     30 Identifier      char
+   12     35 Op_multiply    
+   12     36 Op_multiply    
+   12     37 RightParen     
+   12     38 Semicolon      
+   13      1 Identifier      void
+   13      6 Identifier      spacetokenizer
+   13     20 LeftParen      
+   13     21 Identifier      char
+   13     25 Op_multiply    
+   13     26 Comma          
+   13     28 Identifier      char
+   13     32 Op_multiply    
+   13     33 Op_multiply    
+   13     34 RightParen     
+   13     35 Semicolon      
+   14      1 Identifier      bool
+   14      6 Identifier      isDelimiter
+   14     17 LeftParen      
+   14     18 Identifier      char
+   14     22 RightParen     
+   14     23 Semicolon      
+   15      1 Identifier      bool
+   15      6 Identifier      isOperator
+   15     16 LeftParen      
+   15     17 Identifier      char
+   15     21 RightParen     
+   15     22 Semicolon      
+   16      1 Identifier      bool
+   16      6 Identifier      isValidIdentifier
+   16     23 LeftParen      
+   16     24 Identifier      char
+   16     28 Op_multiply    
+   16     29 RightParen     
+   16     30 Semicolon      
+   17      1 Identifier      bool
+   17      6 Identifier      isKeyword
+   17     15 LeftParen      
+   17     16 Identifier      char
+   17     20 Op_multiply    
+   17     21 RightParen     
+   17     22 Semicolon      
+   18      1 Identifier      bool
+   18      6 Identifier      isInteger
+   18     15 LeftParen      
+   18     16 Identifier      char
+   18     20 Op_multiply    
+   18     21 RightParen     
+   18     22 Semicolon      
+   19      1 Identifier      bool
+   19      6 Identifier      isFloat
+   19     13 LeftParen      
+   19     14 Identifier      char
+   19     18 Op_multiply    
+   19     19 RightParen     
+   19     20 Semicolon      
+   20      1 Identifier      char
+   20      5 Op_multiply    
+   20      7 Identifier      subString
+   20     16 LeftParen      
+   20     17 Identifier      char
+   20     21 Op_multiply    
+   20     22 Comma          
+   20     24 Identifier      int
+   20     27 Comma          
+   20     29 Identifier      int
+   20     32 RightParen     
+   20     33 Semicolon      
+   21      1 Identifier      void
+   21      6 Identifier      parse
+   21     11 LeftParen      
+   21     12 Identifier      char
+   21     16 Op_multiply    
+   21     17 RightParen     
+   21     18 Semicolon      
+   22      1 Identifier      bool
+   22      6 Identifier      isSpecialDelimiter
+   22     24 LeftParen      
+   22     25 Identifier      char
+   22     29 RightParen     
+   22     30 Semicolon      
+   23      1 Identifier      char
+   23      5 Op_multiply    
+   23      7 Identifier      myspaceremover
+   23     21 LeftParen      
+   23     22 Identifier      char
+   23     27 Op_multiply    
+   23     28 Comma          
+   23     30 Identifier      char
+   23     35 Op_multiply    
+   23     36 RightParen     
+   23     37 Semicolon      
+   28      1 Identifier      int
+   28      5 Identifier      main
+   28      9 LeftParen      
+   28     10 RightParen     
+   29      1 LeftBrace      
+   30      2 Identifier      FILE
+   30      7 Op_multiply    
+   30      8 Identifier      fp
+   30     10 Semicolon      
+   31      2 Identifier      char
+   31      7 Identifier      c
+   31      8 Semicolon      
+   32      2 Identifier      char
+   32      7 Op_multiply    
+   32      8 Identifier      buffer
+   32     15 Op_assign      
+   32     17 Identifier      malloc
+   32     23 LeftParen      
+   32     24 Identifier      sizeof
+   32     30 LeftParen      
+   32     31 Identifier      char
+   32     35 RightParen     
+   32     37 Op_multiply    
+   32     39 Integer          4096
+   32     43 RightParen     
+   32     44 Semicolon      
+   33      2 Identifier      fp
+   33      5 Op_assign      
+   33      7 Identifier      fopen
+   33     12 LeftParen      
+   33     13 Keyword_String "file.c"
+   33     21 Comma          
+   33     23 Keyword_String "r"
+   33     26 RightParen     
+   33     27 Semicolon      
+   34      2 Identifier      if
+   34      5 LeftParen      
+   34      6 Identifier      fp
+   34      9 Op_equal       
+   34     12 Identifier      NULL
+   34     16 RightParen     
+   34     18 LeftBrace      
+   34     20 Identifier      printf
+   34     26 LeftParen      
+   34     27 Keyword_String "\nFile can't be read\n"
+   34     51 RightParen     
+   34     52 Semicolon      
+   34     54 Identifier      exit
+   34     58 LeftParen      
+   34     59 Integer             1
+   34     60 RightParen     
+   34     61 Semicolon      
+   34     63 RightBrace     
+   35      2 Identifier      int
+   35      6 Identifier      i
+   35      8 Op_assign      
+   35     10 Integer             0
+   35     11 Semicolon      
+   37      2 Identifier      while
+   37      7 LeftParen      
+   37      8 LeftParen      
+   37      9 Identifier      c
+   37     11 Op_assign      
+   37     13 Identifier      fgetc
+   37     18 LeftParen      
+   37     19 Identifier      fp
+   37     21 RightParen     
+   37     22 RightParen     
+   37     24 Op_notequal    
+   37     27 Identifier      EOF
+   37     30 RightParen     
+   38      2 LeftBrace      
+   39      3 Identifier      printf
+   39      9 LeftParen      
+   39     10 Keyword_String "%c"
+   39     14 Comma          
+   39     15 Identifier      c
+   39     16 RightParen     
+   39     17 Semicolon      
+   40      3 Identifier      if
+   40      5 LeftParen      
+   40      6 Identifier      c
+   40      8 Op_equal       
+   40     11 Integer            10
+   40     15 RightParen     
+   41      3 LeftBrace      
+   42      4 Identifier      buffer
+   42     10 LeftSquareBr   
+   42     11 Identifier      i
+   42     12 RightSquareBr  
+   42     14 Op_assign      
+   42     16 Integer            92
+   42     20 Semicolon      
+   43      4 Identifier      parse
+   43      9 LeftParen      
+   43     10 Identifier      buffer
+   43     16 RightParen     
+   43     17 Semicolon      
+   44      4 Op_divide      
+   44      5 Op_divide      
+   44      6 Identifier      split_line
+   44     16 LeftParen      
+   44     17 Identifier      buffer
+   44     23 RightParen     
+   44     24 Semicolon      
+   45      4 Identifier      i
+   45      6 Op_assign      
+   45      8 Integer             0
+   45      9 Semicolon      
+   46      4 Identifier      memset
+   46     10 LeftParen      
+   46     11 Identifier      buffer
+   46     17 Comma          
+   46     19 Integer            92
+   46     23 Comma          
+   46     25 Integer          4096
+   46     29 Op_multiply    
+   46     30 Identifier      sizeof
+   46     36 LeftParen      
+   46     37 Identifier      char
+   46     41 RightParen     
+   46     42 RightParen     
+   46     43 Semicolon      
+   47      4 Identifier      continue
+   47     12 Semicolon      
+   48      3 RightBrace     
+   49      3 Identifier      buffer
+   49      9 LeftSquareBr   
+   49     10 Identifier      i
+   49     11 Op_add         
+   49     12 Op_add         
+   49     13 RightSquareBr  
+   49     15 Op_assign      
+   49     17 Identifier      c
+   49     18 Semicolon      
+   51      2 RightBrace     
+   53      2 Identifier      free
+   53      6 LeftParen      
+   53      7 Identifier      buffer
+   53     13 RightParen     
+   53     14 Semicolon      
+   54      2 Identifier      return
+   54      9 Integer             0
+   54     10 Semicolon      
+   55      1 RightBrace     
+   57      1 Identifier      void
+   57      6 Identifier      split_line
+   57     16 LeftParen      
+   57     17 Identifier      char
+   57     22 Op_multiply    
+   57     23 Identifier      line
+   57     27 RightParen     
+   58      1 LeftBrace      
+   59      2 Identifier      int
+   59      6 Identifier      execFlag
+   59     14 Semicolon      
+   60      2 Identifier      int
+   60      6 Identifier      i
+   60      7 Semicolon      
+   61      4 Identifier      char
+   61      8 Op_multiply    
+   61     10 Identifier      semicolontoken
+   61     24 LeftSquareBr   
+   61     25 Integer          4096
+   61     29 RightSquareBr  
+   61     30 Semicolon      
+   62      2 Identifier      int
+   62      6 Identifier      token_len
+   62     16 Op_assign      
+   62     18 Identifier      semicolontokenizer
+   62     36 LeftParen      
+   62     37 Identifier      line
+   62     41 Comma          
+   62     43 Identifier      semicolontoken
+   62     57 RightParen     
+   62     58 Semicolon      
+   63      2 Identifier      for
+   63      5 LeftParen      
+   63      6 Identifier      i
+   63      7 Op_assign      
+   63      8 Integer             0
+   63      9 Semicolon      
+   63     10 Identifier      i
+   63     11 Op_less        
+   63     12 Identifier      token_len
+   63     21 Semicolon      
+   63     22 Identifier      i
+   63     23 Op_add         
+   63     24 Op_add         
+   63     25 RightParen     
+   64      2 LeftBrace      
+   65      3 Identifier      char
+   65      7 Op_multiply    
+   65      9 Identifier      token_1
+   65     16 LeftSquareBr   
+   65     17 Integer          4096
+   65     21 RightSquareBr  
+   65     22 Semicolon      
+   67      3 Identifier      char
+   67      7 Op_multiply    
+   67      9 Identifier      token_2
+   67     16 LeftSquareBr   
+   67     17 Integer          4096
+   67     21 RightSquareBr  
+   67     22 Semicolon      
+   69      3 Identifier      tokenizer
+   69     12 LeftParen      
+   69     13 Identifier      semicolontoken
+   69     27 LeftSquareBr   
+   69     28 Identifier      i
+   69     29 RightSquareBr  
+   69     30 Comma          
+   69     32 Identifier      token_1
+   69     39 Comma          
+   69     41 Identifier      token_2
+   69     48 RightParen     
+   69     49 Semicolon      
+   71      2 RightBrace     
+   72      1 RightBrace     
+   74      1 Identifier      int
+   74      5 Identifier      semicolontokenizer
+   74     23 LeftParen      
+   74     24 Identifier      char
+   74     28 Op_multiply    
+   74     30 Identifier      line
+   74     34 Comma          
+   74     36 Identifier      char
+   74     40 Op_multiply    
+   74     41 Op_multiply    
+   74     43 Identifier      semicolontoken
+   74     57 RightParen     
+   75      1 LeftBrace      
+   76      2 Identifier      int
+   76      6 Identifier      i
+   76      7 Semicolon      
+   77      2 Identifier      for
+   77      5 LeftParen      
+   77      6 Identifier      i
+   77      7 Op_assign      
+   77      8 Integer             0
+   77      9 Semicolon      
+   77     11 Identifier      i
+   77     12 Op_less        
+   77     13 Integer          4096
+   77     17 Semicolon      
+   77     19 Identifier      i
+   77     20 Op_add         
+   77     21 Op_add         
+   77     22 RightParen     
+   77     23 LeftBrace      
+   78      3 Identifier      semicolontoken
+   78     17 LeftSquareBr   
+   78     18 Identifier      i
+   78     19 RightSquareBr  
+   78     20 Op_assign      
+   78     21 Identifier      strsep
+   78     27 LeftParen      
+   78     28 BitWiseAnd     
+   78     29 Identifier      line
+   78     33 Comma          
+   78     35 Keyword_String ";"
+   78     38 RightParen     
+   78     39 Semicolon      
+   79      3 Identifier      if
+   79      5 LeftParen      
+   79      6 Identifier      semicolontoken
+   79     20 LeftSquareBr   
+   79     21 Identifier      i
+   79     22 RightSquareBr  
+   79     23 Op_equal       
+   79     25 Identifier      NULL
+   79     29 RightParen     
+   80      4 Identifier      break
+   80      9 Semicolon      
+   81      2 RightBrace     
+   82      2 Identifier      return
+   82      9 Identifier      i
+   82     10 Semicolon      
+   83      1 RightBrace     
+   85      1 Identifier      char
+   85      5 Op_multiply    
+   85      7 Identifier      myspaceremover
+   85     21 LeftParen      
+   85     22 Identifier      char
+   85     27 Op_multiply    
+   85     28 Identifier      str
+   85     31 Comma          
+   85     33 Identifier      char
+   85     38 Op_multiply    
+   85     39 Identifier      parsed
+   85     45 RightParen     
+   86      1 LeftBrace      
+   87      2 Identifier      int
+   87      6 Identifier      i
+   87      8 Op_assign      
+   87     10 Integer             0
+   87     11 Comma          
+   87     13 Identifier      j
+   87     15 Op_assign      
+   87     17 Integer             0
+   87     18 Semicolon      
+   88      2 Identifier      char
+   88      7 Identifier      minimal
+   88     14 LeftSquareBr   
+   88     15 Integer          1024
+   88     19 RightSquareBr  
+   88     20 Semicolon      
+   89      2 Identifier      while
+   89      8 LeftParen      
+   89      9 Identifier      str
+   89     12 LeftSquareBr   
+   89     13 Identifier      i
+   89     14 RightSquareBr  
+   89     16 Op_notequal    
+   89     19 Integer            92
+   89     23 RightParen     
+   90      5 LeftBrace      
+   91      7 Identifier      if
+   91     10 LeftParen      
+   91     11 Identifier      str
+   91     14 LeftSquareBr   
+   91     15 Identifier      i
+   91     16 RightSquareBr  
+   91     18 Op_equal       
+   91     21 Integer            92
+   91     26 Op_and         
+   91     29 Identifier      str
+   91     32 LeftSquareBr   
+   91     33 Identifier      i
+   91     34 Op_add         
+   91     35 Integer             1
+   91     36 RightSquareBr  
+   91     38 Op_equal       
+   91     41 Integer            45
+   91     44 RightParen     
+   92      4 LeftBrace      
+   93      9 Identifier      minimal
+   93     16 LeftSquareBr   
+   93     17 Identifier      j
+   93     18 RightSquareBr  
+   93     20 Op_assign      
+   93     22 Identifier      str
+   93     25 LeftSquareBr   
+   93     26 Identifier      i
+   93     27 RightSquareBr  
+   93     28 Semicolon      
+   94      9 Identifier      j
+   94     10 Op_add         
+   94     11 Op_add         
+   94     12 Semicolon      
+   95      7 RightBrace     
+   96      4 Identifier      else
+   96      9 Identifier      if
+   96     11 LeftParen      
+   96     12 Identifier      str
+   96     15 LeftSquareBr   
+   96     16 Identifier      i
+   96     17 RightSquareBr  
+   96     19 Op_notequal    
+   96     22 Integer            92
+   96     26 RightParen     
+   97      4 LeftBrace      
+   98      3 Identifier      minimal
+   98     10 LeftSquareBr   
+   98     11 Identifier      j
+   98     12 RightSquareBr  
+   98     14 Op_assign      
+   98     16 Identifier      str
+   98     19 LeftSquareBr   
+   98     20 Identifier      i
+   98     21 RightSquareBr  
+   98     22 Semicolon      
+   99      9 Identifier      j
+   99     10 Op_add         
+   99     11 Op_add         
+   99     12 Semicolon      
+  100      4 RightBrace     
+  101      7 Identifier      i
+  101      8 Op_add         
+  101      9 Op_add         
+  101     10 Semicolon      
+  102      5 RightBrace     
+  104      6 Identifier      minimal
+  104     13 LeftSquareBr   
+  104     14 Identifier      j
+  104     15 RightSquareBr  
+  104     17 Op_assign      
+  104     19 Integer            92
+  104     23 Semicolon      
+  105      3 Identifier      parsed
+  105     10 Op_assign      
+  105     12 Identifier      minimal
+  105     19 Semicolon      
+  106      3 Identifier      return
+  106     10 Identifier      parsed
+  106     16 Semicolon      
+  107      1 RightBrace     
+  109      1 Identifier      int
+  109      5 Identifier      tokenizer
+  109     14 LeftParen      
+  109     15 Identifier      char
+  109     20 Op_multiply    
+  109     21 Identifier      semicolontoken
+  109     35 Comma          
+  109     36 Identifier      char
+  109     41 Op_multiply    
+  109     42 Op_multiply    
+  109     43 Identifier      token_1
+  109     50 Comma          
+  109     51 Identifier      char
+  109     56 Op_multiply    
+  109     57 Op_multiply    
+  109     58 Identifier      token_2
+  109     65 RightParen     
+  110      1 LeftBrace      
+  111      2 Identifier      int
+  111      6 Identifier      i
+  111      7 Semicolon      
+  112      2 Identifier      char
+  112      6 Op_multiply    
+  112      8 Identifier      strpiped
+  112     16 LeftSquareBr   
+  112     17 Integer          4096
+  112     21 RightSquareBr  
+  112     22 Semicolon      
+  113      2 Identifier      char
+  113      7 Op_multiply    
+  113      8 Identifier      andp
+  113     13 Op_assign      
+  113     15 Identifier      strstr
+  113     21 LeftParen      
+  113     22 Identifier      semicolontoken
+  113     36 Comma          
+  113     37 Keyword_String "&&"
+  113     41 RightParen     
+  113     42 Semicolon      
+  114      2 Identifier      char
+  114      7 Op_multiply    
+  114      8 Identifier      orp
+  114     12 Op_assign      
+  114     14 Identifier      strstr
+  114     20 LeftParen      
+  114     21 Identifier      semicolontoken
+  114     35 Comma          
+  114     36 Keyword_String "||"
+  114     40 RightParen     
+  114     41 Semicolon      
+  115      2 Identifier      if
+  115      4 LeftParen      
+  115      5 Identifier      orp
+  115      8 RightParen     
+  116      2 LeftBrace      
+  117      3 Identifier      for
+  117      7 LeftParen      
+  117      8 Identifier      i
+  117     10 Op_assign      
+  117     12 Integer             0
+  117     13 Semicolon      
+  117     15 Identifier      i
+  117     17 Op_less        
+  117     19 Integer             3
+  117     20 Semicolon      
+  117     22 Identifier      i
+  117     23 Op_add         
+  117     24 Op_add         
+  117     25 RightParen     
+  117     26 LeftBrace      
+  118      4 Identifier      strpiped
+  118     12 LeftSquareBr   
+  118     13 Identifier      i
+  118     14 RightSquareBr  
+  118     16 Op_assign      
+  118     18 Identifier      strsep
+  118     24 LeftParen      
+  118     25 BitWiseAnd     
+  118     26 Identifier      semicolontoken
+  118     40 Comma          
+  118     42 Keyword_String "||"
+  118     46 RightParen     
+  118     47 Semicolon      
+  119      4 Identifier      if
+  119      7 LeftParen      
+  119      8 Identifier      strpiped
+  119     16 LeftSquareBr   
+  119     17 Identifier      i
+  119     18 RightSquareBr  
+  119     20 Op_equal       
+  119     23 Identifier      NULL
+  119     27 RightParen     
+  120      5 Identifier      break
+  120     10 Semicolon      
+  121      3 RightBrace     
+  122      3 Identifier      spacetokenizer
+  122     17 LeftParen      
+  122     18 Identifier      strpiped
+  122     26 LeftSquareBr   
+  122     27 Integer             0
+  122     28 RightSquareBr  
+  122     29 Comma          
+  122     31 Identifier      token_1
+  122     38 RightParen     
+  122     39 Semicolon      
+  123      3 Identifier      spacetokenizer
+  123     17 LeftParen      
+  123     18 Identifier      strpiped
+  123     26 LeftSquareBr   
+  123     27 Integer             2
+  123     28 RightSquareBr  
+  123     29 Comma          
+  123     31 Identifier      token_2
+  123     38 RightParen     
+  123     39 Semicolon      
+  125      2 RightBrace     
+  126      2 Identifier      else
+  126      7 Identifier      if
+  126      9 LeftParen      
+  126     10 Identifier      andp
+  126     14 RightParen     
+  127      2 LeftBrace      
+  128      3 Identifier      for
+  128      7 LeftParen      
+  128      8 Identifier      i
+  128     10 Op_assign      
+  128     12 Integer             0
+  128     13 Semicolon      
+  128     15 Identifier      i
+  128     17 Op_less        
+  128     19 Integer             3
+  128     20 Semicolon      
+  128     22 Identifier      i
+  128     23 Op_add         
+  128     24 Op_add         
+  128     25 RightParen     
+  129      3 LeftBrace      
+  130      4 Identifier      strpiped
+  130     12 LeftSquareBr   
+  130     13 Identifier      i
+  130     14 RightSquareBr  
+  130     16 Op_assign      
+  130     18 Identifier      strsep
+  130     24 LeftParen      
+  130     25 BitWiseAnd     
+  130     26 Identifier      semicolontoken
+  130     40 Comma          
+  130     42 Keyword_String "&&"
+  130     46 RightParen     
+  130     47 Semicolon      
+  131      4 Identifier      if
+  131      7 LeftParen      
+  131      8 Identifier      strpiped
+  131     16 LeftSquareBr   
+  131     17 Identifier      i
+  131     18 RightSquareBr  
+  131     20 Op_equal       
+  131     23 Identifier      NULL
+  131     27 RightParen     
+  132      5 Identifier      break
+  132     10 Semicolon      
+  133      3 RightBrace     
+  134      3 Identifier      spacetokenizer
+  134     17 LeftParen      
+  134     18 Identifier      strpiped
+  134     26 LeftSquareBr   
+  134     27 Integer             0
+  134     28 RightSquareBr  
+  134     29 Comma          
+  134     31 Identifier      token_1
+  134     38 RightParen     
+  134     39 Semicolon      
+  135      3 Identifier      spacetokenizer
+  135     17 LeftParen      
+  135     18 Identifier      strpiped
+  135     26 LeftSquareBr   
+  135     27 Integer             2
+  135     28 RightSquareBr  
+  135     29 Comma          
+  135     31 Identifier      token_2
+  135     38 RightParen     
+  135     39 Semicolon      
+  136      2 RightBrace     
+  137      2 Identifier      else
+  138      2 LeftBrace      
+  139      3 Identifier      spacetokenizer
+  139     17 LeftParen      
+  139     18 Identifier      semicolontoken
+  139     32 Comma          
+  139     34 Identifier      token_1
+  139     41 RightParen     
+  139     42 Semicolon      
+  140      2 RightBrace     
+  141      1 RightBrace     
+  143      1 Identifier      void
+  143      6 Identifier      spacetokenizer
+  143     20 LeftParen      
+  143     21 Identifier      char
+  143     25 Op_multiply    
+  143     27 Identifier      str
+  143     30 Comma          
+  143     32 Identifier      char
+  143     36 Op_multiply    
+  143     37 Op_multiply    
+  143     39 Identifier      parsed
+  143     45 RightParen     
+  144      1 LeftBrace      
+  145      2 Identifier      int
+  145      6 Identifier      i
+  145      7 Semicolon      
+  146      2 Identifier      for
+  146      6 LeftParen      
+  146      7 Identifier      i
+  146      9 Op_assign      
+  146     11 Integer             0
+  146     12 Semicolon      
+  146     14 Identifier      i
+  146     16 Op_less        
+  146     18 Integer          4096
+  146     22 Semicolon      
+  146     24 Identifier      i
+  146     25 Op_add         
+  146     26 Op_add         
+  146     27 RightParen     
+  147      2 LeftBrace      
+  148      3 Identifier      parsed
+  148      9 LeftSquareBr   
+  148     10 Identifier      i
+  148     11 RightSquareBr  
+  148     13 Op_assign      
+  148     15 Identifier      strsep
+  148     21 LeftParen      
+  148     22 BitWiseAnd     
+  148     23 Identifier      str
+  148     26 Comma          
+  148     28 Keyword_String " "
+  148     31 RightParen     
+  148     32 Semicolon      
+  149      3 Identifier      if
+  149      6 LeftParen      
+  149      7 Identifier      parsed
+  149     13 LeftSquareBr   
+  149     14 Identifier      i
+  149     15 RightSquareBr  
+  149     17 Op_equal       
+  149     20 Identifier      NULL
+  149     24 RightParen     
+  150      4 Identifier      break
+  150      9 Semicolon      
+  151      3 Identifier      if
+  151      6 LeftParen      
+  151      7 Identifier      strlen
+  151     13 LeftParen      
+  151     14 Identifier      parsed
+  151     20 LeftSquareBr   
+  151     21 Identifier      i
+  151     22 RightSquareBr  
+  151     23 RightParen     
+  151     25 Op_equal       
+  151     28 Integer             0
+  151     29 RightParen     
+  152      4 Identifier      i
+  152      5 Op_subtract    
+  152      6 Op_subtract    
+  152      7 Semicolon      
+  153      2 RightBrace     
+  154      1 RightBrace     
+  156      1 Identifier      bool
+  156      6 Identifier      isDelimiter
+  156     17 LeftParen      
+  156     18 Identifier      char
+  156     23 Identifier      ch
+  156     25 RightParen     
+  157      1 LeftBrace      
+  158      2 Identifier      if
+  158      5 LeftParen      
+  158      6 Identifier      ch
+  158      9 Op_equal       
+  158     12 Integer            35
+  158     16 Op_or          
+  158     19 Identifier      ch
+  158     22 Op_equal       
+  158     25 Integer            32
+  158     29 Op_or          
+  158     32 Identifier      ch
+  158     35 Op_equal       
+  158     38 Integer            44
+  158     42 Op_or          
+  158     45 Identifier      ch
+  158     48 Op_equal       
+  158     51 Integer            59
+  158     55 Op_or          
+  158     58 Identifier      ch
+  158     61 Op_equal       
+  158     64 Integer            60
+  158     68 Op_or          
+  158     71 Identifier      ch
+  158     74 Op_equal       
+  158     77 Integer            62
+  158     81 Op_or          
+  158     84 Identifier      ch
+  158     87 Op_equal       
+  158     90 Integer            40
+  158     94 Op_or          
+  158     97 Identifier      ch
+  158    100 Op_equal       
+  158    103 Integer            41
+  158    107 Op_or          
+  158    110 Identifier      ch
+  158    113 Op_equal       
+  158    116 Integer            91
+  158    120 Op_or          
+  158    123 Identifier      ch
+  158    126 Op_equal       
+  158    129 Integer            93
+  158    133 Op_or          
+  158    136 Identifier      ch
+  158    139 Op_equal       
+  158    142 Integer           123
+  158    146 Op_or          
+  158    149 Identifier      ch
+  158    152 Op_equal       
+  158    155 Integer           125
+  158    158 RightParen     
+  159      3 Identifier      return
+  159     10 LeftParen      
+  159     11 Identifier      true
+  159     15 RightParen     
+  159     16 Semicolon      
+  160      2 Identifier      return
+  160      9 LeftParen      
+  160     10 Identifier      false
+  160     15 RightParen     
+  160     16 Semicolon      
+  161      1 RightBrace     
+  163      1 Identifier      bool
+  163      6 Identifier      isSpecialDelimiter
+  163     24 LeftParen      
+  163     25 Identifier      char
+  163     30 Identifier      ch
+  163     32 RightParen     
+  164      1 LeftBrace      
+  165      2 Identifier      if
+  165      5 LeftParen      
+  165      6 Identifier      ch
+  165      9 Op_equal       
+  165     12 Integer            35
+  165     16 Op_or          
+  165     19 Identifier      ch
+  165     22 Op_equal       
+  165     25 Integer            60
+  165     29 Op_or          
+  165     32 Identifier      ch
+  165     35 Op_equal       
+  165     38 Integer            62
+  165     42 Op_or          
+  165     45 Identifier      ch
+  165     48 Op_equal       
+  165     51 Integer            40
+  165     55 Op_or          
+  165     58 Identifier      ch
+  165     61 Op_equal       
+  165     64 Integer            41
+  165     68 Op_or          
+  165     71 Identifier      ch
+  165     74 Op_equal       
+  165     77 Integer            91
+  165     81 Op_or          
+  165     84 Identifier      ch
+  165     87 Op_equal       
+  165     90 Integer            93
+  165     94 Op_or          
+  165     97 Identifier      ch
+  165    100 Op_equal       
+  165    103 Integer           123
+  165    107 Op_or          
+  165    110 Identifier      ch
+  165    113 Op_equal       
+  165    116 Integer           125
+  165    119 RightParen     
+  166      3 Identifier      return
+  166     10 LeftParen      
+  166     11 Identifier      true
+  166     15 RightParen     
+  166     16 Semicolon      
+  167      2 Identifier      return
+  167      9 LeftParen      
+  167     10 Identifier      false
+  167     15 RightParen     
+  167     16 Semicolon      
+  168      1 RightBrace     
+  170      1 Identifier      bool
+  170      6 Identifier      isOperator
+  170     16 LeftParen      
+  170     17 Identifier      char
+  170     22 Identifier      ch
+  170     24 RightParen     
+  171      1 LeftBrace      
+  172      2 Identifier      if
+  172      5 LeftParen      
+  172      6 Identifier      ch
+  172      9 Op_equal       
+  172     12 Integer            43
+  172     16 Op_or          
+  172     19 Identifier      ch
+  172     22 Op_equal       
+  172     25 Integer            45
+  172     29 Op_or          
+  172     32 Identifier      ch
+  172     35 Op_equal       
+  172     38 Integer            42
+  172     42 Op_or          
+  172     45 Identifier      ch
+  172     48 Op_equal       
+  172     51 Integer            47
+  172     55 Op_or          
+  172     58 Identifier      ch
+  172     61 Op_equal       
+  172     64 Integer            62
+  172     68 Op_or          
+  172     71 Identifier      ch
+  172     74 Op_equal       
+  172     77 Integer            60
+  172     81 Op_or          
+  172     84 Identifier      ch
+  172     87 Op_equal       
+  172     90 Integer            61
+  172     94 Op_or          
+  172     97 Identifier      ch
+  172    100 Op_equal       
+  172    103 Integer            37
+  172    106 RightParen     
+  173      3 Identifier      return
+  173     10 LeftParen      
+  173     11 Identifier      true
+  173     15 RightParen     
+  173     16 Semicolon      
+  174      2 Identifier      return
+  174      9 LeftParen      
+  174     10 Identifier      false
+  174     15 RightParen     
+  174     16 Semicolon      
+  175      1 RightBrace     
+  177      1 Identifier      bool
+  177      6 Identifier      isValidIdentifier
+  177     23 LeftParen      
+  177     24 Identifier      char
+  177     28 Op_multiply    
+  177     30 Identifier      str
+  177     33 RightParen     
+  178      1 LeftBrace      
+  179      2 Identifier      if
+  179      5 LeftParen      
+  179      6 Identifier      isInteger
+  179     15 LeftParen      
+  179     16 BitWiseAnd     
+  179     17 Identifier      str
+  179     20 LeftSquareBr   
+  179     21 Integer             0
+  179     22 RightSquareBr  
+  179     23 RightParen     
+  179     25 Op_equal       
+  179     28 Identifier      true
+  179     33 Op_or          
+  179     36 Identifier      isDelimiter
+  179     47 LeftParen      
+  179     48 Identifier      str
+  179     51 LeftSquareBr   
+  179     52 Integer             0
+  179     53 RightSquareBr  
+  179     54 RightParen     
+  179     56 Op_equal       
+  179     59 Identifier      true
+  179     64 Op_or          
+  179     67 Identifier      isOperator
+  179     77 LeftParen      
+  179     78 Identifier      str
+  179     81 LeftSquareBr   
+  179     82 Integer             0
+  179     83 RightSquareBr  
+  179     84 RightParen     
+  179     86 Op_equal       
+  179     89 Identifier      true
+  179     93 RightParen     
+  180      3 Identifier      return
+  180     10 LeftParen      
+  180     11 Identifier      false
+  180     16 RightParen     
+  180     17 Semicolon      
+  181      2 Identifier      return
+  181      9 LeftParen      
+  181     10 Identifier      true
+  181     14 RightParen     
+  181     15 Semicolon      
+  182      1 RightBrace     
+  185      1 Identifier      bool
+  185      6 Identifier      isKeyword
+  185     15 LeftParen      
+  185     16 Identifier      char
+  185     20 Op_multiply    
+  185     22 Identifier      str
+  185     25 RightParen     
+  186      1 LeftBrace      
+  187      2 Identifier      if
+  187      5 LeftParen      
+  187      6 Op_not         
+  187      7 Identifier      strcmp
+  187     13 LeftParen      
+  187     14 Identifier      str
+  187     17 Comma          
+  187     19 Keyword_String "if"
+  187     23 RightParen     
+  187     25 Op_or          
+  187     28 Op_not         
+  187     29 Identifier      strcmp
+  187     35 LeftParen      
+  187     36 Identifier      str
+  187     39 Comma          
+  187     41 Keyword_String "else"
+  187     47 RightParen     
+  187     49 Op_or          
+  187     52 Op_not         
+  187     53 Identifier      strcmp
+  187     59 LeftParen      
+  187     60 Identifier      str
+  187     63 Comma          
+  187     65 Keyword_String "while"
+  187     72 RightParen     
+  187     74 Op_or          
+  187     77 Op_not         
+  187     78 Identifier      strcmp
+  187     84 LeftParen      
+  187     85 Identifier      str
+  187     88 Comma          
+  187     90 Keyword_String "do"
+  187     94 RightParen     
+  187     96 Op_or          
+  188      3 Op_not         
+  188      4 Identifier      strcmp
+  188     10 LeftParen      
+  188     11 Identifier      str
+  188     14 Comma          
+  188     16 Keyword_String "break"
+  188     23 RightParen     
+  188     25 Op_or          
+  188     28 Op_not         
+  188     29 Identifier      strcmp
+  188     35 LeftParen      
+  188     36 Identifier      str
+  188     39 Comma          
+  188     41 Keyword_String "continue"
+  188     51 RightParen     
+  188     53 Op_or          
+  188     56 Op_not         
+  188     57 Identifier      strcmp
+  188     63 LeftParen      
+  188     64 Identifier      str
+  188     67 Comma          
+  188     69 Keyword_String "int"
+  188     74 RightParen     
+  188     76 Op_or          
+  188     79 Op_not         
+  188     80 Identifier      strcmp
+  188     86 LeftParen      
+  188     87 Identifier      str
+  188     90 Comma          
+  188     92 Keyword_String "double"
+  188    100 RightParen     
+  188    102 Op_or          
+  188    105 Op_not         
+  188    106 Identifier      strcmp
+  188    112 LeftParen      
+  188    113 Identifier      str
+  188    116 Comma          
+  188    118 Keyword_String "float"
+  188    125 RightParen     
+  188    127 Op_or          
+  188    130 Op_not         
+  188    131 Identifier      strcmp
+  188    137 LeftParen      
+  188    138 Identifier      str
+  188    141 Comma          
+  188    143 Keyword_String "return"
+  188    151 RightParen     
+  188    153 Op_or          
+  188    156 Op_not         
+  188    157 Identifier      strcmp
+  188    163 LeftParen      
+  188    164 Identifier      str
+  188    167 Comma          
+  188    169 Keyword_String "char"
+  188    175 RightParen     
+  188    177 Op_or          
+  188    180 Op_not         
+  188    181 Identifier      strcmp
+  188    187 LeftParen      
+  188    188 Identifier      str
+  188    191 Comma          
+  188    193 Keyword_String "case"
+  188    199 RightParen     
+  188    201 Op_or          
+  188    204 Op_not         
+  188    205 Identifier      strcmp
+  188    211 LeftParen      
+  188    212 Identifier      str
+  188    215 Comma          
+  188    217 Keyword_String "char"
+  188    223 RightParen     
+  188    225 Op_or          
+  188    228 Op_not         
+  188    229 Identifier      strcmp
+  188    235 LeftParen      
+  188    236 Identifier      str
+  188    239 Comma          
+  188    241 Keyword_String "sizeof"
+  188    249 RightParen     
+  188    251 Op_or          
+  188    254 Op_not         
+  188    255 Identifier      strcmp
+  188    261 LeftParen      
+  188    262 Identifier      str
+  188    265 Comma          
+  188    267 Keyword_String "long"
+  188    273 RightParen     
+  188    275 Op_or          
+  188    278 Op_not         
+  188    279 Identifier      strcmp
+  188    285 LeftParen      
+  188    286 Identifier      str
+  188    289 Comma          
+  188    291 Keyword_String "short"
+  188    298 RightParen     
+  188    300 Op_or          
+  188    303 Op_not         
+  188    304 Identifier      strcmp
+  188    310 LeftParen      
+  188    311 Identifier      str
+  188    314 Comma          
+  188    316 Keyword_String "typedef"
+  188    325 RightParen     
+  188    327 Op_or          
+  188    330 Op_not         
+  188    331 Identifier      strcmp
+  188    337 LeftParen      
+  188    338 Identifier      str
+  188    341 Comma          
+  188    343 Keyword_String "switch"
+  188    351 RightParen     
+  188    353 Op_or          
+  188    356 Op_not         
+  188    357 Identifier      strcmp
+  188    363 LeftParen      
+  188    364 Identifier      str
+  188    367 Comma          
+  188    369 Keyword_String "unsigned"
+  188    379 RightParen     
+  188    381 Op_or          
+  188    384 Op_not         
+  188    385 Identifier      strcmp
+  188    391 LeftParen      
+  188    392 Identifier      str
+  188    395 Comma          
+  188    397 Keyword_String "void"
+  188    403 RightParen     
+  188    405 Op_or          
+  188    408 Op_not         
+  188    409 Identifier      strcmp
+  188    415 LeftParen      
+  188    416 Identifier      str
+  188    419 Comma          
+  188    421 Keyword_String "static"
+  188    429 RightParen     
+  188    431 Op_or          
+  188    434 Op_not         
+  188    435 Identifier      strcmp
+  188    441 LeftParen      
+  188    442 Identifier      str
+  188    445 Comma          
+  188    447 Keyword_String "struct"
+  188    455 RightParen     
+  188    457 Op_or          
+  188    460 Op_not         
+  188    461 Identifier      strcmp
+  188    467 LeftParen      
+  188    468 Identifier      str
+  188    471 Comma          
+  188    473 Keyword_String "goto"
+  188    479 RightParen     
+  188    480 RightParen     
+  189      3 Identifier      return
+  189     10 LeftParen      
+  189     11 Identifier      true
+  189     15 RightParen     
+  189     16 Semicolon      
+  190      2 Identifier      return
+  190      9 LeftParen      
+  190     10 Identifier      false
+  190     15 RightParen     
+  190     16 Semicolon      
+  191      1 RightBrace     
+  193      1 Identifier      bool
+  193      6 Identifier      isInteger
+  193     15 LeftParen      
+  193     16 Identifier      char
+  193     20 Op_multiply    
+  193     22 Identifier      str
+  193     25 RightParen     
+  194      1 LeftBrace      
+  195      2 Identifier      int
+  195      6 Identifier      i
+  195      7 Comma          
+  195      9 Identifier      len
+  195     13 Op_assign      
+  195     15 Identifier      strlen
+  195     21 LeftParen      
+  195     22 Identifier      str
+  195     25 RightParen     
+  195     26 Semicolon      
+  196      2 Identifier      if
+  196      5 LeftParen      
+  196      6 Identifier      len
+  196     10 Op_equal       
+  196     13 Integer             0
+  196     14 RightParen     
+  197      3 Identifier      return
+  197     10 LeftParen      
+  197     11 Identifier      false
+  197     16 RightParen     
+  197     17 Semicolon      
+  198      2 Identifier      for
+  198      6 LeftParen      
+  198      7 Identifier      i
+  198      9 Op_assign      
+  198     11 Integer             0
+  198     12 Semicolon      
+  198     14 Identifier      i
+  198     16 Op_less        
+  198     18 Identifier      len
+  198     21 Semicolon      
+  198     23 Identifier      i
+  198     24 Op_add         
+  198     25 Op_add         
+  198     26 RightParen     
+  198     28 LeftBrace      
+  199      3 Identifier      if
+  199      6 LeftParen      
+  199      7 Identifier      str
+  199     10 LeftSquareBr   
+  199     11 Identifier      i
+  199     12 RightSquareBr  
+  199     14 Op_notequal    
+  199     17 Integer            48
+  199     21 Op_and         
+  199     24 Identifier      str
+  199     27 LeftSquareBr   
+  199     28 Identifier      i
+  199     29 RightSquareBr  
+  199     31 Op_notequal    
+  199     34 Integer            49
+  199     38 Op_and         
+  199     41 Identifier      str
+  199     44 LeftSquareBr   
+  199     45 Identifier      i
+  199     46 RightSquareBr  
+  199     48 Op_notequal    
+  199     51 Integer            50
+  199     55 Op_and         
+  199     58 Identifier      str
+  199     61 LeftSquareBr   
+  199     62 Identifier      i
+  199     63 RightSquareBr  
+  199     65 Op_notequal    
+  199     68 Integer            51
+  199     72 Op_and         
+  199     75 Identifier      str
+  199     78 LeftSquareBr   
+  199     79 Identifier      i
+  199     80 RightSquareBr  
+  199     82 Op_notequal    
+  199     85 Integer            52
+  199     89 Op_and         
+  199     92 Identifier      str
+  199     95 LeftSquareBr   
+  199     96 Identifier      i
+  199     97 RightSquareBr  
+  199     99 Op_notequal    
+  199    102 Integer            53
+  199    106 Op_and         
+  199    109 Identifier      str
+  199    112 LeftSquareBr   
+  199    113 Identifier      i
+  199    114 RightSquareBr  
+  199    116 Op_notequal    
+  199    119 Integer            54
+  199    123 Op_and         
+  199    126 Identifier      str
+  199    129 LeftSquareBr   
+  199    130 Identifier      i
+  199    131 RightSquareBr  
+  199    133 Op_notequal    
+  199    136 Integer            55
+  199    140 Op_and         
+  199    143 Identifier      str
+  199    146 LeftSquareBr   
+  199    147 Identifier      i
+  199    148 RightSquareBr  
+  199    150 Op_notequal    
+  199    153 Integer            56
+  199    157 Op_and         
+  199    160 Identifier      str
+  199    163 LeftSquareBr   
+  199    164 Identifier      i
+  199    165 RightSquareBr  
+  199    167 Op_notequal    
+  199    170 Integer            57
+  199    174 Op_or          
+  199    177 LeftParen      
+  199    178 Identifier      str
+  199    181 LeftSquareBr   
+  199    182 Identifier      i
+  199    183 RightSquareBr  
+  199    185 Op_equal       
+  199    188 Integer            45
+  199    192 Op_and         
+  199    195 Identifier      i
+  199    197 Op_greater     
+  199    199 Integer             0
+  199    200 RightParen     
+  199    201 RightParen     
+  200      4 Identifier      return
+  200     11 LeftParen      
+  200     12 Identifier      false
+  200     17 RightParen     
+  200     18 Semicolon      
+  201      2 RightBrace     
+  202      2 Identifier      return
+  202      9 LeftParen      
+  202     10 Identifier      true
+  202     14 RightParen     
+  202     15 Semicolon      
+  203      1 RightBrace     
+  205      1 Identifier      bool
+  205      6 Identifier      isFloat
+  205     13 LeftParen      
+  205     14 Identifier      char
+  205     18 Op_multiply    
+  205     20 Identifier      str
+  205     23 RightParen     
+  206      1 LeftBrace      
+  207      2 Identifier      int
+  207      6 Identifier      i
+  207      7 Comma          
+  207      9 Identifier      len
+  207     13 Op_assign      
+  207     15 Identifier      strlen
+  207     21 LeftParen      
+  207     22 Identifier      str
+  207     25 RightParen     
+  207     26 Semicolon      
+  208      2 Identifier      bool
+  208      7 Identifier      hasDecimal
+  208     18 Op_assign      
+  208     20 Identifier      false
+  208     25 Semicolon      
+  210      2 Identifier      if
+  210      5 LeftParen      
+  210      6 Identifier      len
+  210     10 Op_equal       
+  210     13 Integer             0
+  210     14 RightParen     
+  211      3 Identifier      return
+  211     10 LeftParen      
+  211     11 Identifier      false
+  211     16 RightParen     
+  211     17 Semicolon      
+  212      2 Identifier      for
+  212      6 LeftParen      
+  212      7 Identifier      i
+  212      9 Op_assign      
+  212     11 Integer             0
+  212     12 Semicolon      
+  212     14 Identifier      i
+  212     16 Op_less        
+  212     18 Identifier      len
+  212     21 Semicolon      
+  212     23 Identifier      i
+  212     24 Op_add         
+  212     25 Op_add         
+  212     26 RightParen     
+  212     28 LeftBrace      
+  213      3 Identifier      if
+  213      6 LeftParen      
+  213      7 Identifier      str
+  213     10 LeftSquareBr   
+  213     11 Identifier      i
+  213     12 RightSquareBr  
+  213     14 Op_notequal    
+  213     17 Integer            48
+  213     21 Op_and         
+  213     24 Identifier      str
+  213     27 LeftSquareBr   
+  213     28 Identifier      i
+  213     29 RightSquareBr  
+  213     31 Op_notequal    
+  213     34 Integer            49
+  213     38 Op_and         
+  213     41 Identifier      str
+  213     44 LeftSquareBr   
+  213     45 Identifier      i
+  213     46 RightSquareBr  
+  213     48 Op_notequal    
+  213     51 Integer            50
+  213     55 Op_and         
+  213     58 Identifier      str
+  213     61 LeftSquareBr   
+  213     62 Identifier      i
+  213     63 RightSquareBr  
+  213     65 Op_notequal    
+  213     68 Integer            51
+  213     72 Op_and         
+  213     75 Identifier      str
+  213     78 LeftSquareBr   
+  213     79 Identifier      i
+  213     80 RightSquareBr  
+  213     82 Op_notequal    
+  213     85 Integer            52
+  213     89 Op_and         
+  213     92 Identifier      str
+  213     95 LeftSquareBr   
+  213     96 Identifier      i
+  213     97 RightSquareBr  
+  213     99 Op_notequal    
+  213    102 Integer            53
+  213    106 Op_and         
+  213    109 Identifier      str
+  213    112 LeftSquareBr   
+  213    113 Identifier      i
+  213    114 RightSquareBr  
+  213    116 Op_notequal    
+  213    119 Integer            54
+  213    123 Op_and         
+  213    126 Identifier      str
+  213    129 LeftSquareBr   
+  213    130 Identifier      i
+  213    131 RightSquareBr  
+  213    133 Op_notequal    
+  213    136 Integer            55
+  213    140 Op_and         
+  213    143 Identifier      str
+  213    146 LeftSquareBr   
+  213    147 Identifier      i
+  213    148 RightSquareBr  
+  213    150 Op_notequal    
+  213    153 Integer            56
+  213    157 Op_and         
+  213    160 Identifier      str
+  213    163 LeftSquareBr   
+  213    164 Identifier      i
+  213    165 RightSquareBr  
+  213    167 Op_notequal    
+  213    170 Integer            57
+  213    174 Op_and         
+  213    177 Identifier      str
+  213    180 LeftSquareBr   
+  213    181 Identifier      i
+  213    182 RightSquareBr  
+  213    184 Op_notequal    
+  213    187 Integer            46
+  213    191 Op_or          
+  213    194 LeftParen      
+  213    195 Identifier      str
+  213    198 LeftSquareBr   
+  213    199 Identifier      i
+  213    200 RightSquareBr  
+  213    202 Op_equal       
+  213    205 Integer            45
+  213    209 Op_and         
+  213    212 Identifier      i
+  213    214 Op_greater     
+  213    216 Integer             0
+  213    217 RightParen     
+  213    218 RightParen     
+  214      4 Identifier      return
+  214     11 LeftParen      
+  214     12 Identifier      false
+  214     17 RightParen     
+  214     18 Semicolon      
+  215      3 Identifier      if
+  215      6 LeftParen      
+  215      7 Identifier      str
+  215     10 LeftSquareBr   
+  215     11 Identifier      i
+  215     12 RightSquareBr  
+  215     14 Op_equal       
+  215     17 Integer            46
+  215     20 RightParen     
+  216      4 Identifier      hasDecimal
+  216     15 Op_assign      
+  216     17 Identifier      true
+  216     21 Semicolon      
+  217      2 RightBrace     
+  218      2 Identifier      return
+  218      9 LeftParen      
+  218     10 Identifier      hasDecimal
+  218     20 RightParen     
+  218     21 Semicolon      
+  219      1 RightBrace     
+  221      1 Identifier      char
+  221      5 Op_multiply    
+  221      7 Identifier      subString
+  221     16 LeftParen      
+  221     17 Identifier      char
+  221     21 Op_multiply    
+  221     23 Identifier      str
+  221     26 Comma          
+  221     28 Identifier      int
+  221     32 Identifier      left
+  221     36 Comma          
+  221     38 Identifier      int
+  221     42 Identifier      right
+  221     47 RightParen     
+  222      1 LeftBrace      
+  223      2 Identifier      int
+  223      6 Identifier      i
+  223      7 Semicolon      
+  224      2 Identifier      char
+  224      6 Op_multiply    
+  224      8 Identifier      subStr
+  224     15 Op_assign      
+  224     17 LeftParen      
+  224     18 Identifier      char
+  224     22 Op_multiply    
+  224     23 RightParen     
+  224     24 Identifier      malloc
+  224     30 LeftParen      
+  225      5 Identifier      sizeof
+  225     11 LeftParen      
+  225     12 Identifier      char
+  225     16 RightParen     
+  225     18 Op_multiply    
+  225     20 LeftParen      
+  225     21 Identifier      right
+  225     27 Op_subtract    
+  225     29 Identifier      left
+  225     34 Op_add         
+  225     36 Integer             2
+  225     37 RightParen     
+  225     38 RightParen     
+  225     39 Semicolon      
+  227      2 Identifier      for
+  227      6 LeftParen      
+  227      7 Identifier      i
+  227      9 Op_assign      
+  227     11 Identifier      left
+  227     15 Semicolon      
+  227     17 Identifier      i
+  227     19 Op_lessequal   
+  227     22 Identifier      right
+  227     27 Semicolon      
+  227     29 Identifier      i
+  227     30 Op_add         
+  227     31 Op_add         
+  227     32 RightParen     
+  228      3 Identifier      subStr
+  228      9 LeftSquareBr   
+  228     10 Identifier      i
+  228     12 Op_subtract    
+  228     14 Identifier      left
+  228     18 RightSquareBr  
+  228     20 Op_assign      
+  228     22 Identifier      str
+  228     25 LeftSquareBr   
+  228     26 Identifier      i
+  228     27 RightSquareBr  
+  228     28 Semicolon      
+  229      2 Identifier      subStr
+  229      8 LeftSquareBr   
+  229      9 Identifier      right
+  229     15 Op_subtract    
+  229     17 Identifier      left
+  229     22 Op_add         
+  229     24 Integer             1
+  229     25 RightSquareBr  
+  229     27 Op_assign      
+  229     29 Integer            92
+  229     33 Semicolon      
+  230      2 Identifier      return
+  230      9 LeftParen      
+  230     10 Identifier      subStr
+  230     16 RightParen     
+  230     17 Semicolon      
+  231      1 RightBrace     
+  233      1 Identifier      void
+  233      6 Identifier      parse
+  233     11 LeftParen      
+  233     12 Identifier      char
+  233     16 Op_multiply    
+  233     18 Identifier      str
+  233     21 RightParen     
+  234      1 LeftBrace      
+  235      2 Identifier      int
+  235      6 Identifier      left
+  235     11 Op_assign      
+  235     13 Integer             0
+  235     14 Comma          
+  235     16 Identifier      right
+  235     22 Op_assign      
+  235     24 Integer             0
+  235     25 Semicolon      
+  236      2 Identifier      int
+  236      6 Identifier      len
+  236     10 Op_assign      
+  236     12 Identifier      strlen
+  236     18 LeftParen      
+  236     19 Identifier      str
+  236     22 RightParen     
+  236     23 Semicolon      
+  238      2 Identifier      while
+  238      8 LeftParen      
+  238      9 Identifier      right
+  238     15 Op_lessequal   
+  238     18 Identifier      len
+  238     22 Op_and         
+  238     25 Identifier      left
+  238     30 Op_lessequal   
+  238     33 Identifier      right
+  238     38 RightParen     
+  238     40 LeftBrace      
+  239      3 Identifier      if
+  239      6 LeftParen      
+  239      7 Identifier      isDelimiter
+  239     18 LeftParen      
+  239     19 Identifier      str
+  239     22 LeftSquareBr   
+  239     23 Identifier      right
+  239     28 RightSquareBr  
+  239     29 RightParen     
+  239     31 Op_equal       
+  239     34 Identifier      false
+  239     39 RightParen     
+  240      4 Identifier      right
+  240      9 Op_add         
+  240     10 Op_add         
+  240     11 Semicolon      
+  242      3 Identifier      if
+  242      6 LeftParen      
+  242      7 Identifier      isDelimiter
+  242     18 LeftParen      
+  242     19 Identifier      str
+  242     22 LeftSquareBr   
+  242     23 Identifier      right
+  242     28 RightSquareBr  
+  242     29 RightParen     
+  242     31 Op_equal       
+  242     34 Identifier      true
+  242     39 Op_and         
+  242     42 Identifier      left
+  242     47 Op_equal       
+  242     50 Identifier      right
+  242     55 RightParen     
+  242     57 LeftBrace      
+  243      4 Identifier      if
+  243      7 LeftParen      
+  243      8 Identifier      isSpecialDelimiter
+  243     26 LeftParen      
+  243     27 Identifier      str
+  243     30 LeftSquareBr   
+  243     31 Identifier      right
+  243     36 RightSquareBr  
+  243     37 RightParen     
+  243     39 Op_equal       
+  243     42 Identifier      true
+  243     46 RightParen     
+  244      4 LeftBrace      
+  245      5 Identifier      printf
+  245     11 LeftParen      
+  245     12 Keyword_String "'%c' is an delimiter\n"
+  245     36 Comma          
+  245     38 Identifier      str
+  245     41 LeftSquareBr   
+  245     42 Identifier      right
+  245     47 RightSquareBr  
+  245     48 RightParen     
+  245     49 Semicolon      
+  246      4 RightBrace     
+  247      4 Identifier      if
+  247      7 LeftParen      
+  247      8 Identifier      isOperator
+  247     18 LeftParen      
+  247     19 Identifier      str
+  247     22 LeftSquareBr   
+  247     23 Identifier      right
+  247     28 RightSquareBr  
+  247     29 RightParen     
+  247     31 Op_equal       
+  247     34 Identifier      true
+  247     38 RightParen     
+  248      5 Identifier      printf
+  248     11 LeftParen      
+  248     12 Keyword_String "'%c' is an operator\n"
+  248     35 Comma          
+  248     37 Identifier      str
+  248     40 LeftSquareBr   
+  248     41 Identifier      right
+  248     46 RightSquareBr  
+  248     47 RightParen     
+  248     48 Semicolon      
+  250      4 Identifier      right
+  250      9 Op_add         
+  250     10 Op_add         
+  250     11 Semicolon      
+  251      4 Identifier      left
+  251      9 Op_assign      
+  251     11 Identifier      right
+  251     16 Semicolon      
+  252      3 RightBrace     
+  252      5 Identifier      else
+  252     10 Identifier      if
+  252     13 LeftParen      
+  252     14 Identifier      isDelimiter
+  252     25 LeftParen      
+  252     26 Identifier      str
+  252     29 LeftSquareBr   
+  252     30 Identifier      right
+  252     35 RightSquareBr  
+  252     36 RightParen     
+  252     38 Op_equal       
+  252     41 Identifier      true
+  252     46 Op_and         
+  252     49 Identifier      left
+  252     54 Op_notequal    
+  252     57 Identifier      right
+  253      5 Op_or          
+  253      8 LeftParen      
+  253      9 Identifier      right
+  253     15 Op_equal       
+  253     18 Identifier      len
+  253     22 Op_and         
+  253     25 Identifier      left
+  253     30 Op_notequal    
+  253     33 Identifier      right
+  253     38 RightParen     
+  253     39 RightParen     
+  253     41 LeftBrace      
+  254      4 Identifier      char
+  254      8 Op_multiply    
+  254     10 Identifier      STR
+  254     14 Op_assign      
+  254     16 Identifier      subString
+  254     25 LeftParen      
+  254     26 Identifier      str
+  254     29 Comma          
+  254     31 Identifier      left
+  254     35 Comma          
+  254     37 Identifier      right
+  254     43 Op_subtract    
+  254     45 Integer             1
+  254     46 RightParen     
+  254     47 Semicolon      
+  255      4 Identifier      char
+  255      8 Op_multiply    
+  255     10 Identifier      subStr
+  255     16 Semicolon      
+  256      4 Identifier      subStr
+  256     11 Op_assign      
+  256     13 Identifier      myspaceremover
+  256     27 LeftParen      
+  256     28 Identifier      STR
+  256     31 Comma          
+  256     32 Identifier      subStr
+  256     38 RightParen     
+  256     39 Semicolon      
+  259      4 Identifier      if
+  259      7 LeftParen      
+  259      8 Identifier      isKeyword
+  259     17 LeftParen      
+  259     18 Identifier      subStr
+  259     24 RightParen     
+  259     26 Op_equal       
+  259     29 Identifier      true
+  259     33 RightParen     
+  260      5 Identifier      printf
+  260     11 LeftParen      
+  260     12 Keyword_String "'%s' is a keyword\n"
+  260     33 Comma          
+  260     35 Identifier      subStr
+  260     41 RightParen     
+  260     42 Semicolon      
+  262      4 Identifier      else
+  262      9 Identifier      if
+  262     12 LeftParen      
+  262     13 Identifier      isInteger
+  262     22 LeftParen      
+  262     23 Identifier      subStr
+  262     29 RightParen     
+  262     31 Op_equal       
+  262     34 Identifier      true
+  262     38 RightParen     
+  263      5 Identifier      printf
+  263     11 LeftParen      
+  263     12 Keyword_String "'%s' is an integer\n"
+  263     34 Comma          
+  263     36 Identifier      subStr
+  263     42 RightParen     
+  263     43 Semicolon      
+  265      4 Identifier      else
+  265      9 Identifier      if
+  265     12 LeftParen      
+  265     13 Identifier      isFloat
+  265     20 LeftParen      
+  265     21 Identifier      subStr
+  265     27 RightParen     
+  265     29 Op_equal       
+  265     32 Identifier      true
+  265     36 RightParen     
+  266      5 Identifier      printf
+  266     11 LeftParen      
+  266     12 Keyword_String "'%s' is a float\n"
+  266     31 Comma          
+  266     33 Identifier      subStr
+  266     39 RightParen     
+  266     40 Semicolon      
+  268      4 Identifier      else
+  268      9 Identifier      if
+  268     12 LeftParen      
+  268     13 Identifier      isOperator
+  268     23 LeftParen      
+  268     24 Identifier      subStr
+  268     30 LeftSquareBr   
+  268     31 Integer             0
+  268     32 RightSquareBr  
+  268     33 RightParen     
+  268     35 Op_equal       
+  268     38 Identifier      true
+  268     42 RightParen     
+  269      5 Identifier      printf
+  269     11 LeftParen      
+  269     12 Keyword_String "'%s' is a operator\n"
+  269     34 Comma          
+  269     36 Identifier      subStr
+  269     42 RightParen     
+  269     43 Semicolon      
+  271      4 Identifier      else
+  271      9 Identifier      if
+  271     12 LeftParen      
+  271     13 Identifier      isValidIdentifier
+  271     30 LeftParen      
+  271     31 Identifier      subStr
+  271     37 RightParen     
+  271     39 Op_equal       
+  271     42 Identifier      true
+  272      6 Op_and         
+  272      9 Identifier      isDelimiter
+  272     20 LeftParen      
+  272     21 Identifier      str
+  272     24 LeftSquareBr   
+  272     25 Identifier      right
+  272     31 Op_subtract    
+  272     33 Integer             1
+  272     34 RightSquareBr  
+  272     35 RightParen     
+  272     37 Op_equal       
+  272     40 Identifier      false
+  272     45 RightParen     
+  273      5 Identifier      printf
+  273     11 LeftParen      
+  273     12 Keyword_String "'%s' is a valid identifier\n"
+  273     42 Comma          
+  273     44 Identifier      subStr
+  273     50 RightParen     
+  273     51 Semicolon      
+  275      4 Identifier      else
+  275      9 Identifier      if
+  275     12 LeftParen      
+  275     13 Identifier      isValidIdentifier
+  275     30 LeftParen      
+  275     31 Identifier      subStr
+  275     37 RightParen     
+  275     39 Op_equal       
+  275     42 Identifier      false
+  276      6 Op_and         
+  276      9 Identifier      isDelimiter
+  276     20 LeftParen      
+  276     21 Identifier      str
+  276     24 LeftSquareBr   
+  276     25 Identifier      right
+  276     31 Op_subtract    
+  276     33 Integer             1
+  276     34 RightSquareBr  
+  276     35 RightParen     
+  276     37 Op_equal       
+  276     40 Identifier      false
+  276     45 RightParen     
+  277      5 Identifier      printf
+  277     11 LeftParen      
+  277     12 Keyword_String "'%s' is not a valid identifier\n"
+  277     46 Comma          
+  277     48 Identifier      subStr
+  277     54 RightParen     
+  277     55 Semicolon      
+  278      4 Identifier      left
+  278      9 Op_assign      
+  278     11 Identifier      right
+  278     16 Semicolon      
+  279      3 RightBrace     
+  280      2 RightBrace     
+  281      2 Identifier      return
+  281      8 Semicolon      
+  282      1 RightBrace     
+  283      1 End_of_input   
